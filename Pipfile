@@ -12,6 +12,8 @@ gunicorn = "*"
 plotly = "*"
 jupyter = "*"
 pandas = "*"
+scikit-learn = "*"
+category-encoders = "*"
 
 [requires]
 python_version = "3.7"
