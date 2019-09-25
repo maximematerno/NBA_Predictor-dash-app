@@ -14,10 +14,10 @@ column1 = dbc.Col(
         dcc.Markdown(
             """
         
-            ## Predictions
+            ## Evaluation
 
 
-            """, className='mb-3'
+            """, className='mb-5'
         ),
         dcc.Markdown('#### Age'),
         dcc.Slider(
@@ -26,7 +26,7 @@ column1 = dbc.Col(
             max=41, 
             step=5, 
             value=41, 
-            marks={n: str(n) for n in range(19,41,1)},
+            marks={n: str(n) for n in range(19,41,20)},
             className='mb-5',  
         ),
         dcc.Markdown('#### Position'), 
@@ -43,14 +43,13 @@ column1 = dbc.Col(
 
         ),
     ],
-    md=7,
+    md=4,
 )
 
 column2 = dbc.Col(
     [
-        html.H2('Expected Salary', className='mb-5'), 
-        html.Div(id='prediction-content', className='lead'),
-        html.Img(src='assets/athletes-ball-basketball-163267.jpg', className='img-fluid')
+        html.H2('Expected Lifespan', className='mb-5'), 
+        html.Div(id='prediction-content', className='lead')
     ]
 )
 
