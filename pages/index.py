@@ -34,7 +34,7 @@ column1 = dbc.Col(
             What if you were a professional basketball player, How much you will be making? 
 
             Use this Sport app to see how much you will be making, depends on your position, 
-            height, weight, team and age.
+            height, weight, age and college.
             """
         ),
         dcc.Link(dbc.Button('Predict', color='primary'), href='/predictions')
