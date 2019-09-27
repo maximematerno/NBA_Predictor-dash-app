@@ -49,7 +49,7 @@ column1 = dbc.Col(
             """,   
         className='mb-4'),
         (
-            html.Img(src="assets/Shaply.PNG", style= {'width': '75%', 'display': 'inline-block'}, alt="Responsive image")
+            html.Img(src="assets/Shaply.png", style= {'width': '75%', 'display': 'inline-block'}, alt="Responsive image")
         )      
     ],
 )

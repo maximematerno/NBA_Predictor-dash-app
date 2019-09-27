@@ -14,7 +14,7 @@ column1 = dbc.Col(
             --------------------------------------------------------------
                 
             * ### Cleaning:  
-            ![](assets/DF.PNG)
+            ![](assets/DF.png)
             This dataset is the NBA data information is from Kaggle.
             This NBA dataset was taken from Kaggle.  
             &emsp;
