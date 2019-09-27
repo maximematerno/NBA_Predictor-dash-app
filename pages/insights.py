@@ -28,7 +28,7 @@ column1 = dbc.Col(
         ),
         dcc.Markdown(
             """        
-            Partial Dependence Plots show exactly when a feature weight has high concentrations. We can see that between 24 at 30 years old the NBA players get paid a higher salary.        
+            Partial Dependence Plot shows exactly when a feature weight has high concentrations. We can see that between 24 at 30 years old the NBA players get paid a higher salary.        
             """,
         className='mb-4'),
         (
@@ -36,7 +36,7 @@ column1 = dbc.Col(
         ),
         dcc.Markdown(
             """        
-            We can see on the Partial Dependence Plot that between more you are heavier more you will get pay.           
+            Partial Dependence Plot shows that heavier players also have higher salaries.           
             """,
         className='mb-4'),
         (
