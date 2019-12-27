@@ -1,4 +1,4 @@
-# dash-template
+# NBA_Predictor dash-template
 
 - [First time](#first-time)
   - [Requirements](#requirements)
